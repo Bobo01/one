@@ -1,0 +1,556 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.w {
+	width: 1240px;
+	margin: 0 auto;
+}
+body{
+	background: #ededed;
+}
+
+/*===========header============*/
+
+header #t {
+	height: 30px;
+	background: #eeeeee;
+	line-height: 30px;
+}
+
+header #t p {
+	font-size: 13px;
+	color: #111;
+}
+
+header #t ul {}
+
+header #t ul li {}
+
+header #t ul li a {
+	border-right: 1px solid #ccc;
+	padding: 0 15px;
+}
+
+header #t ul li:first-child a {
+	border-right: 0;
+}
+
+header #t ul li:last-child a {
+	border-right: 0;
+	background: url(../images/images/b.png) no-repeat 15px;
+	padding-left: 36px;
+}
+header .h{
+	height: 100px;
+	background: #fff;
+}
+header #h-c {
+	height: 100px;
+}
+
+header #h-c h1 {
+	margin-top: 25px;
+}
+
+header #h-c .c-r {
+	height: 30px;
+	margin-top: 25px;
+	width: 426px;
+    margin-right: 0;
+    position: relative;
+}
+
+header #h-c .c-r .t-r1{
+	display: inline-block;
+    text-align: center;
+}
+header #h-c .c-r .t-r2{
+	display: inline-block;
+    text-align: center;
+    margin-left: 109px;
+}
+header #h-c .c-r .t-r3{
+	display: inline-block;
+    text-align: center;
+    margin-left: 115px;
+}
+header #h-c .c-r .t-r1 .t-rp1{
+	background-color: #BB1E7B;
+	width: 17px;
+    height: 14px;
+    line-height: 14px;
+    padding-top: 3px;
+    border-radius: 17px;
+    font-size: 13px;
+    display: inline-block;
+    margin-bottom: 8px;
+    color: #fff;
+}
+header #h-c .c-r .t-r2 .t-rp1{
+	background: #ccc;
+	width: 17px;
+    height: 14px;
+    line-height: 14px;
+    padding-top: 3px;
+    border-radius: 17px;
+    font-size: 13px;
+    display: inline-block;
+    margin-bottom: 8px;
+    color: #fff;
+}
+header #h-c .c-r .t-r3 .t-rp1{
+	background: #ccc;
+	width: 17px;
+    height: 14px;
+    line-height: 14px;
+    padding-top: 3px;
+    border-radius: 17px;
+    font-size: 13px;
+    display: inline-block;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+
+header #h-c .c-r .t-r1 .t-rp2{
+	color: #BB1E7B;
+	font-size: 15px;
+}
+header #h-c .c-r .t-r2 .t-rp2{
+
+	font-size: 15px;
+}
+header #h-c .c-r .t-r3 .t-rp2{
+	
+	font-size: 15px;
+}
+header #h-c .c-r .t-p1{
+	position: absolute;
+    width: 160px;
+    height: 1px;
+    background-color: #aaa;
+    top: 8px;
+    left: 46px;
+
+}
+header #h-c .c-r .t-p2{
+	    left: 223px;
+	position: absolute;
+    width: 160px;
+    height: 1px;
+    background-color: #aaa;
+    top: 8px;	    
+}
+
+nav{
+}
+nav ul{
+	width: 100%;
+    height: 14px;
+    background-color: #acb0b1;
+    padding: 13px 0;
+    font-size: 13px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+nav ul li{
+	text-align: center;
+	height: 100%;
+}
+nav ul li:nth-child(1){
+	width: 435px;
+}
+nav ul li:nth-child(2){
+	width:67px;
+}
+nav ul li:nth-child(3){
+	width: 521px;
+}
+nav ul li:nth-child(4){
+	width: 175px;
+}
+
+#box{	
+    background-color: #fff;
+    font-size: 13px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+#box .p1{
+	width: 100%;
+    height: 19px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fafafa;
+    padding: 10px 0;
+}
+#box .p1 .s-1{
+	background: #f9793a;
+    padding: 1px;
+    margin-left: 20px;
+    border-radius: 2px;
+}
+
+#box .p1 .s-1 i{
+	display: inline-block;
+	width: 14px;
+    height: 12px;
+    background: url(../images/shoppingcar/new.png) no-repeat -597px -168px;
+  
+}
+
+#box .p1 .s-2{
+	background-color: #f9793a;
+	padding: 2px 6px;
+    
+    margin-left: 15px;
+    margin-top: 1px;
+    color: #fff;
+}
+
+#box .one{}
+#box .one .le{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 45px;
+    height: 100%;
+}
+#box .one .le input{
+	margin-top:94px;
+    margin-left: 17px;
+    margin-right: 10px;
+    width: 13px;
+    height: 13px;
+    border: 1px solid #cbcbcb;
+    vertical-align: middle;
+}
+#box .one .ri{
+    width: 1154px;
+    height: 100%;
+    border-bottom: 1px solid #e5e5e5;
+    color: #777;
+}
+#box .one .ri .img{
+	width: 82px;
+    height: 82px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+}
+#box .one .ri .er{
+	width: 215px;
+    height: 100%;
+    margin-left: 20px;
+}
+#box .one .ri .er a{
+	color: #000;
+	display: inline-block;
+    margin-top: 20px;
+    line-height: 15px;
+    max-height: 30px;
+}
+#box .one .ri .er p{
+	margin-top: 36px;
+}
+#box .one .ri .san{
+	width: 217px;
+    height: 100%;
+    
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial;	
+}
+#box .one .ri .san p{
+	color: #000;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+#box .one .ri .san s{
+	padding: 0 1px;
+    color: #aaa;
+}
+#box .one .ri .si{
+	color: #000;
+    font-size: 16px;
+  	display: inline-block;
+    margin-top: 20px;
+    margin-left: 110px;
+    margin-right: 44px;
+}
+#box .one .ri .wu{
+	width: 140px;
+    height: 120px;
+    margin-right: 52px;
+}
+#box .one .ri .wu i{
+	width: 17px;
+    height: 17px;
+   display: inline-block;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 60px;
+    background: url(../images/shoppingcar/new.png) no-repeat  -762px -89px;;
+}
+
+
+
+
+
+
+
+
+
+
+/*=============================================================公用部分=======================================================*/
+#b {
+	height: 225px;
+	background: #F2F2F2;
+	margin-top: 60px;
+}
+
+#b .bl {}
+
+#b .bl .bb {
+	text-align: center;
+	width: 399px;
+	height: 165px;
+	border-right: 1px solid #ccc;
+}
+
+#b .bl .bb h2 {
+	color: #222;
+	margin: 30px 0;
+	font-size: 18px;
+}
+
+#b .bl .bb h1 {
+	font-size: 28px;
+	color: #222;
+}
+
+#b .bl .bb p {
+	margin-top: 12px;
+	font-size: 13px;
+}
+
+#b .bc .bb {
+	width: 399px;
+	height: 165px;
+	border-right: 1px solid #ccc;
+}
+
+#b .bc .bb h2 {
+	color: #222;
+	margin: 30px 0;
+	font-size: 18px;
+	text-align: center;
+}
+
+#b .bc .bb .p {
+	width: 330px;
+	font-size: 13px;
+	color: #222;
+	margin: 0 auto;
+	margin-bottom: 0px;
+	text-align: left;
+	margin-bottom: 25px;
+	line-height: 20px;
+	position: relative;
+}
+
+#b .bc .bb .p i {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background: url(../images/images/vx.png);
+	position: absolute;
+	top: -4px;
+	left: 70px;
+}
+
+#b .bc .bb .p i b {
+	display: none;
+	width: 92px;
+	height: 92px;
+	border: 1px solid #ccc;
+	padding: 2px;
+	background: url(../images/images/two.png) no-repeat center;
+	position: absolute;
+	top: 33px;
+	left: -28px;
+	z-index: 10;
+	background-color: #fff;
+}
+
+#b .bc .bb .p i:hover b {
+	display: block;
+}
+
+#b .br .bb {
+	width: 399px;
+	height: 165px;
+	text-align: center;
+}
+
+#b .br .bb h2 {
+	color: #222;
+	margin: 30px 0;
+	font-size: 18px;
+	text-align: center;
+}
+
+#b .br .bb img {
+	margin: 0 auto;
+}
+
+#b .br .bb p {
+	margin-top: 12px;
+	font-size: 13px;
+}
+
+/*============================================footer=========================================*/
+
+footer {
+	background: #444444;
+	height: 240px;
+}
+
+footer .t {
+	height: 109px;
+	border-bottom: 1px solid #555;
+}
+
+footer .t ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+footer .t ul li {
+	position: relative;
+	width: 400px;
+	line-height: 109px;
+}
+
+footer .t ul li b {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 30px;
+	left: 90px;
+}
+
+footer .t ul li span {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	position: absolute;
+	top: 5px;
+	left: 155px;
+}
+
+footer .t ul li .b1 {
+	background: url(../images/images/b_z.png) no-repeat center;
+}
+
+footer .t ul li .b2 {
+	background: url(../images/images/b_bao.png) no-repeat center;
+}
+
+footer .t ul li .b3 {
+	background: url(../images/images/7day.png) no-repeat center;
+}
+
+footer .b {}
+
+footer .b p {
+	color: #BBB;
+	font-size: 15px;
+	line-height: 28px;
+}
+
+footer .b .b-p {
+	margin: 20px 0 15px 0;
+}
+
+footer .b .b-p a {
+	color: #BBB;
+	font-size: 13px;
+}
+
+footer .b span {
+	padding: 0 20px;
+	color: #555555;
+}
+
+footer .b p i {
+	width: 17px;
+	height: 21px;
+	display: inline-block;
+	background: url(../images/images/a1.jpg) no-repeat;
+	margin: 0 0 1px 10px;
+}
+
+footer .b ul {
+	display: flex;
+	justify-content: space-between;
+	width: 340px;
+	height: 80px;
+	margin-top: 20px;
+	flex-wrap: wrap;
+}
+
+footer #ding {
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	top:50% ;
+	left: 96%;
+	border: 1px solid #222;
+	text-align: center;
+}
+footer #ding a{
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	background: url(../images/images/ding.png) no-repeat center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

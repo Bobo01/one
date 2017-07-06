@@ -1,0 +1,293 @@
+@charset "utf-8";
+/* CSS Document */
+
+.w{
+	margin: 0 auto;
+    width: 1100px;
+}
+body{
+	background: #ededed;
+}
+
+header{
+	height: 91px;
+    padding: 10px 0;
+    background: #fff;
+  
+}
+header .t{
+	margin-top:10px;
+}
+header .t .h-ul{}
+header .t .h-ul li{
+	width: 140px;
+    height: 54px;
+    line-height: 54px;
+    margin-left: 100px;
+    position: relative;
+}
+header .t .h-ul li i{
+	width: 54px;
+    height: 54px;
+    display: inline-block;
+    left: -60px;
+    background: url(../images/debark/new.png) no-repeat ;
+    background-size: 800px 353px;
+    position: absolute;
+}
+header .t .h-ul li span{
+	color: #333333;
+    font-size: 16px;
+}
+header .t .h-ul li:nth-child(1) i{
+	background-position:-185px -222px;
+}
+header .t .h-ul li:nth-child(2) i{
+	background-position:-245px -222px;
+}
+header .t .h-ul li:nth-child(3) i{
+	background-position:-125px -222px;
+}
+
+
+/*==================section==============================*/
+
+section{}
+
+section .div1{
+	position: relative;
+    width: 100%;
+    height:464px;
+    background: #EDEDED;
+    background-repeat: repeat;
+    padding: 82px 0 66px;
+    border-top: 1px solid #ddd;
+}
+section .div1 .d1{
+	position: relative;
+    height: 353px;
+}
+section .div1 .d1 .zuo{
+	
+}
+section .div1 .d1 .zuo img{
+	position: relative;
+    float: left;
+    width: 460px;
+    height: 509px;
+    margin-right: 93px;
+    margin-top: -10px;
+}
+section .div1 .d1 form{
+	position: relative;
+    float: left;
+    background: #fff;
+    width: 315px;
+    padding: 48px 40px;
+}
+section .div1 .d1 form input{
+	width: 315px;
+    height: 45px;
+    border: 1px solid #CCC;
+	padding: 0 10px;
+    font-size: 14px;
+    margin-bottom: 5px;
+	margin-top: 22px;
+
+}
+section .div1 .d1 form .p1{
+	font-size: 20px;
+    color: #111;
+    text-align: center;
+}
+section .div1 .d1 form .tel{
+	height: 88px;
+}
+section .div1 .d1 form .tel input{
+     margin-top: 35px;
+}
+section .div1 .d1 form .ty{
+	position: relative;
+    font-size: 13px;
+    color: #aaa;
+    margin-top: 22px;
+}
+section .div1 .d1 form .ty input{
+	cursor: pointer;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+    margin-right: 10px;
+    width: 13px;
+    height: 13px;
+    border: 1px solid #cbcbcb;
+    vertical-align: middle;
+}
+section .div1 .d1 form .ty span{
+	left: 4px;
+    margin-top: -8px;
+    
+}
+section .div1 .d1 form .ty a{
+	position: relative;
+    top: 0;
+    color: #333;
+}
+section .div1 .d1 form .dian{
+	cursor: pointer;
+	position: relative;
+    margin-top: 25px;  
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background: #BB1E7B;
+}
+
+
+section .div1 .d1 form .wei{
+	
+}
+section .div1 .d1 form .wei i{
+	display: inline-block;
+	width: 18px;
+	height: 16px;
+	background: url(../images/debark/c.png) no-repeat -230px -7px;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+section .div1 .d1 form .p2{
+	color: #bbb;
+	margin-top: 20px;
+}
+section .div1 .d1 form .p2 .p2-1{}
+section .div1 .d1 form .p2 .p2-2{
+	color:#c964c1;
+	margin-right: 126px;
+}
+section .div1 .d1 form .p2 .p2-3{
+
+}
+
+
+
+
+
+
+
+
+
+/*====================footer=========================*/
+
+footer{
+	width: 100%;
+	height: 210px;
+	background: #fff;
+}
+footer .f{
+	text-align: center;
+	font-size:12px;
+	color:#aaa;
+}
+footer .f .f-p1{
+	padding-top:23px;
+	margin-bottom: 23px;
+}
+footer .f .f-p3{
+	margin:19px auto;
+	width: 94px;
+	height: 31px;
+	background: url(../images/debark/foot.png) no-repeat -238px -73px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
