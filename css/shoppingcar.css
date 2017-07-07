@@ -292,6 +292,112 @@ nav ul li:nth-child(4){
     margin-left: 60px;
     background: url(../images/shoppingcar/new.png) no-repeat  -762px -89px;;
 }
+#box #ipt{
+	margin-top:211px;
+    margin-left: 17px;
+    margin-right: 10px;
+    width: 13px;
+    height: 13px;
+    border: 1px solid #cbcbcb;
+    vertical-align: middle;
+	
+}
+
+#box #two{
+	width: 100%;
+    height: 18px;
+    border-top: 1px solid #ddd;
+    padding: 22.5px 0;
+    position: relative;
+}
+#box #two .zuo{}
+#box #two .zuo input{
+    margin-left: 17px;
+    margin-right: 50px;
+    width: 13px;
+    height: 13px;
+    border: 1px solid #cbcbcb;
+    vertical-align: middle;
+	
+}
+#box #two .quan{
+	
+}
+
+#box #two .shan{
+	padding-left:20px;
+}
+#box #two .shan i{
+	width:17px;
+	height: 17px;
+	display: inline-block;
+	background: url(../images/shoppingcar/new.png) no-repeat -762px -89px;
+}
+#box #two .shan:hover{
+	color: #bb1e7b;
+	cursor: pointer;
+}
+#box #two .shan:hover i{
+	background-position: -762px -119px;	
+}
+#box #two .you{
+}
+#box #two .you .r-l{
+		position: relative;
+}
+#box #two .you .r-l .t{
+	height: 20px;
+    line-height: 20px;
+    color: #000;
+    text-align: right;
+    position: absolute;
+    top: -20px;
+}
+#box #two .you .r-l .t .s1{}
+#box #two .you .r-l .t .s2{}
+#box #two .you .r-l .t .s1 i{
+	color: #BB1E7B;
+    font-size: 14px;
+    font-style: normal;
+}
+#box #two .you .r-l .t .s3{
+	font-size: 20px;
+    color: #BB1E7B;
+}
+#box #two .you .r-l .b{
+	padding-top: 8px;
+	padding-right: 8px;	
+}
+#box #two .you .r-r{
+	background-color: #BB1E7B;
+	height: 17px;
+    width: 144px;
+    margin-top: -23px;
+    color: #fff;
+    text-align: center;
+    padding: 23px 0;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
