@@ -33,14 +33,14 @@
 						<img src="../images/debark/a.png" />
 					</div>
 					<div class="l">
-						<form id="f1" action="register.html" method="post">
+						<form id="f1" action="register.php" method="post" >
 							<p class="p1">注册账号</p>
 							<div class="tel" style="position: relative;">
-								<input type="tel" placeholder="手机号码" id="phone" value=""/>
+								<input type="tel" placeholder="手机号码" id="phone" value="" name="userPhone"/>
 								<div style="border:1px solid #9f9; color: #f99; padding:5px; display: none;position: absolute;top:80px;left:10px;" id="pb";></div>
 							</div>
 							<div class="paw" style="position: relative;">
-								<input type="password" placeholder="密码由6～20位字母数字或字符组成" id="password" />
+								<input type="password" placeholder="密码由6～20位字母数字或字符组成" id="password" name="userPass"/>
 								<div style="border:1px solid #9f9; color: #f99; padding:5px; display: none;position: absolute;top:70px;left:10px;" id="pa";></div>
 							</div>
 							<div class="que" style="position: relative;">
@@ -48,7 +48,7 @@
 								<div style="border:1px solid #9f9; color: #f99; padding:5px; display: none;position: absolute;top:70px;left:10px;" id="pa1";></div>
 							</div>
 							<div class="nm" style="position: relative;">
-								<input type="text" placeholder="姓名" id="Chinese"/>
+								<input type="text" placeholder="姓名" id="Chinese" name="userName"/>
 								<div style="border:1px solid #9f9; color: #f99; padding:5px; display: none;position: absolute;top:70px;left:10px;" id="cb";></div>
 							</div>
 							<div class="tui">
@@ -59,7 +59,7 @@
 								<span>我已阅读并同意遵守</span>
 								<a href="#">优众服务条款</a>
 							</div>
-							<input type="submit" value="注册" class="dian" />
+							<input type="submit" value="注册" id="dian" />
 						</form>
 					</div>
 				</div>
@@ -74,6 +74,7 @@
 		</footer>
 	</body>
 </html>
+<script type="text/javascript" src="../js/jquery-1.8.3.min.js" ></script>
 <script src="../js/zhengze.js"></script>
 
 

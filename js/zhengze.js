@@ -55,60 +55,66 @@
 window.onload=function(){
 /*
 	document.getElementById("f1").onsubmit=function(){//表单提交事件
-		if(!checkAll("Phone",$("phone").value)){//验证电话号码是否符合标准
-			alert("电话号码错误。");
-			return false;//阻止表单提交
-		}	
-		if(checkAll("Chinese",$("Chinese").value)){
-			return true;
-		}else{
-			alert("请输入中文姓名")
-		}
-		if(checkAll("password",$("password").value)){
-			return true;
-		}else{
-			alert("密码应该由6-15位的数字字母下划线特殊字符构成")
-		}
-	};
-	*/
-//验证电话号码是否符合标准	
+//验证电话号码是否符合标准
+*/	
+//var num  =1;
+
+
+var user,pass,name;
+var flag1 = false,flag2 = false,flag3 = false,flag4 = false;
+
 	var phone=document.getElementById("phone");
 	var pb=document.getElementById("pb");
 	phone.onblur=function (type,value){
 		if(!checkAll("Phone",phone.value)){//验证电话号码是否符合标准
 			pb.style.display="block";
 			pb.innerHTML="电话号码错误。"
-			
-			return false;//阻止表单提交
+			//console.log(phone.value)
+			//num = 0;
+			//return false;//阻止表单提交
+			 flag1 = false;
 		}else{
 			pb.style.display="none";
-			return false;
+			//num = 1;
+			//return true;
+			user = phone.value;
+			flag1 = true;
 			}			
 	}
 //验证密码是否合格	
-	var password=document.getElementById("password");
+	var word=document.getElementById("password");
 	var pa=document.getElementById("pa");
-	password.onblur=function (type,value){
-		if(!checkAll("password",password.value)){
+	word.onblur=function (type,value){
+		if(!checkAll("password",word.value)){
 			pa.style.display="block";
 			pa.innerHTML="密码应该由6-15位的数字字母下划线特殊字符构成"
-			
-			return false;//阻止表单提交
+			//num = 0;
+			//return false;//阻止表单提交
+			flag2 = false;
 		}else{
 			pb.style.display="none";
-			return true;
+			//num = 1;
+			//return true;
+			pass =word.value;
+			flag2 = true;
 			}			
 	}
 //验证确认密码是否和密码一致	
 	var password1=document.getElementById("password1");
 	var pa1=document.getElementById("pa1");
+	
 	password1.onblur=function(){
-		if(password1.value!=password.value){
+		if($("#password").val()!==$("#password1").val()){
 			pa1.style.display="block";
-			pa1.innerHTML="确认密码要和密码一直噢！"
+			pa1.innerHTML="确认密码要和密码一至噢！"
+			//num = 0;
+			//return false;//阻止表单提交
+			flag3 = false;
 		}else{
 			pb.style.display="none";
-			return true;
+			//num = 1;
+			//return true;
+			flag3 = true;
 		}
 			
 	}
@@ -119,21 +125,39 @@ window.onload=function(){
 		if(!checkAll("Chinese",chinese.value)){//验证电话号码是否符合标准
 			cb.style.display="block";
 			cb.innerHTML="名字必须为我大中华汉字"
-			
-			return false;//阻止表单提交
+			//num = 0;
+			//return false;//阻止表单提交
+			flag4 = false;
 		}else{
 			cb.style.display="none";
-			return false;
+			//num = 1;
+			//return true;
+			name = chinese.value;
+			flag4 = true;
 			}			
 	}
 	
+
 	
 	
 	
 	
 	
+	/*document.getElementByid("dian")=function(){
+		if(num==1){
+			return true;
+		}
+		if(num==0){
+			return false;
+		}
+	}*/
 	
-	
+	 $("#dian").on("click",function(){
+		if(flag1 === true && flag2 === true && flag3 === true && flag4 === true){
+		 
+		$("#f1").submit(); 
+	 }
+ })
 	
 	
 }	
