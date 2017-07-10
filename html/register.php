@@ -23,10 +23,7 @@
 		mysql_close($con);
 		
 		//3、响应
-		if($count==1){
-			echo "<script>window.location.href=debark.html</script>";
-		}else{
-			echo "注册失败";
-		}
-	}	
+		echo $count;
+	}
+		
 ?>

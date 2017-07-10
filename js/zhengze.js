@@ -1,4 +1,4 @@
-	
+
 	 /*
 	功能：正则验证
 	参数1：验证类型
@@ -58,7 +58,6 @@ window.onload=function(){
 //验证电话号码是否符合标准
 */	
 //var num  =1;
-
 
 var user,pass,name;
 var flag1 = false,flag2 = false,flag3 = false,flag4 = false;
@@ -137,28 +136,37 @@ var flag1 = false,flag2 = false,flag3 = false,flag4 = false;
 			}			
 	}
 	
-
 	
-	
-	
-	
-	
-	/*document.getElementByid("dian")=function(){
-		if(num==1){
-			return true;
-		}
-		if(num==0){
-			return false;
-		}
-	}*/
 	
 	 $("#dian").on("click",function(){
+
 		if(flag1 === true && flag2 === true && flag3 === true && flag4 === true){
 		 
-		$("#f1").submit(); 
+	$.ajax({
+		url:"../html/register.php",
+		async:true,
+		data:{
+			userName:$('#Chinese').val(),
+			userPass:$("#password").val(),
+			userPhone:$("#phone").val()
+			
+		},
+		type:"post",
+		success:function(data){
+			if(data=="1"){
+				//保存cookie
+				location.href="../html/debark.html";
+			}else{
+				$("#errmsg").html("亲，用户名或者密码错误，登录失败，请想好再输！");
+			}
+		}		
+	});	
+	
+
 	 }
  })
 	
+
 	
 }	
 	
